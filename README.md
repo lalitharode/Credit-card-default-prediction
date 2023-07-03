@@ -77,7 +77,7 @@ default.payment.next.month: Default payment (1=yes, 0=no)
 Exploratory Data Analysis (EDA): In this part we have done some EDA on the features to see the trend.
 
 ## Data Processing:
-In this part we applied SMOTE(Synthetic Minority Oversampling Technique) as the classes were unbalanced in the dataset. Also computed features based on feature importance. PAY_SEPT_0, LIMIT_BAL were the top features.
+In this part we applied SMOTE(Synthetic Minority Oversampling Technique) as the classes were unbalanced in the dataset. Also computed features based on feature importance.**pay_ARR_0 > pay_ARR_-1 > pay_ARR_-2 > pay_ARR_1 > Marriage married >Education Higher secondry** were the top features.
 
 ## Model Creation:
 Finally in this part we created the various models. These various models are being analysed and we tried to study various models so as to get the best performing model for our project.
